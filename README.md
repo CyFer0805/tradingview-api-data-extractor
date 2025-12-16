@@ -22,3 +22,13 @@ Python project that extracts market data from TradingView, transforms it, and ou
 
 ## Outcome
 Demonstrates ability to work with APIs, transform data, and build automation-ready workflows for technical and analytics purposes.
+
+## Sample Output
+The script generates structured CSV files stored in the `/sample_data` folder. Example:
+
+| timestamp           | symbol | price |
+|--------------------|--------|-------|
+| 2025-12-16 09:00:00 | AAPL  | 178.5 |
+| 2025-12-16 09:01:00 | GOOG  | 135.2 |
+| 2025-12-16 09:02:00 | TSLA  | 420.1 |
+
